@@ -1,0 +1,33 @@
+{
+  "name": "all-country-football-leagues",
+  "version": "1.0.3",
+  "main": "lib/leagues.js",
+  "scripts": {
+    "build": "babel data -d lib",
+    "test": "node test/test.js"
+  },
+  "files": [
+    "lib/",
+    "data/"
+  ],
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "@babel/preset-env": "^7.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.24.8",
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.3",
+    "webpack": "^5.93.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "keywords": [
+    "football",
+    "leagues",
+    "soccer",
+    "world"
+  ],
+  "author": "Peter Awe",
+  "license": "MIT",
+  "type": "module"
+}
