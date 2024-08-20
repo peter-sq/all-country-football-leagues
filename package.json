@@ -1,6 +1,6 @@
 {
   "name": "all-country-football-leagues",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "lib/leagues.js",
   "scripts": {
     "build": "babel data -d lib",
@@ -25,7 +25,9 @@
     "football",
     "leagues",
     "soccer",
-    "world"
+    "world",
+    "contry",
+    "premier League"
   ],
   "author": "Peter Awe",
   "license": "MIT",
